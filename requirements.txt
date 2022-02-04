@@ -1,0 +1,4 @@
+Package Requirements:
+selenium
+pytest
+pytest-html
