@@ -5,13 +5,15 @@ End to End test for Trendyol Shopping Site.
 Prerequisites:
 Clone repo to your local.
 
-Install all the required libraries in requirements.txt using the pip command :
+You can directly use venv in package or you can create new venv folder. 
+If you want to use venv in package, you can activate it by writing in console, the path where the "activate.bat" file is located.
+If you create new venv, innstall all the required libraries in requirements.txt using the pip command :
 
 ```python
 pip install -r <requirement>
 ```
 
-Download the Chrome WebDriver (for Chrome) or Gecko Driver (for FireFox) and copy the path into related executable_path in \tests\conftest.py
+Download the current Chrome WebDriver (for Chrome) or Gecko Driver (for FireFox) from [here](https://www.selenium.dev/downloads/) and copy the path into related executable_path in \tests\conftest.py
 
 Start the automation:
 In terminal using the code below:
