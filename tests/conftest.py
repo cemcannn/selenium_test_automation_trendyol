@@ -23,7 +23,7 @@ def setup(request):
     elif browser_name == "firefox":
         driver = webdriver.Firefox(executable_path="C:\\Depot\\drivers\\geckodriver.exe")
     elif browser_name == "ie":
-        driver = webdriver.ie
+        driver = webdriver.Ie(executable_path="C:\\Depot\\drivers\\IEDriverServer.exe")
     driver.get("https://www.trendyol.com/")
     request.cls.driver = driver
     yield

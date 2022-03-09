@@ -6,7 +6,7 @@ Prerequisites:
 Clone repo to your local.
 
 You can directly use venv in package or you can create new venv folder. 
-If you want to use venv in package, you can activate it by writing in console, the path where the "activate.bat" file is located.
+If you want to use venv in package, you can activate it by typing in console, the path where the "activate.bat" file is located.
 If you create new venv, innstall all the required libraries in requirements.txt using the pip command :
 
 ```python
